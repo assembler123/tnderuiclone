@@ -1,0 +1,126 @@
+body {
+    font-family: 'Rubik', sans-serif;
+}
+.outer {
+    padding: 10px;
+}
+.inner {
+    width: 30%;
+    margin: auto;
+    overflow: hidden;
+}
+.imgd {
+    width: auto;
+    height: 400px;
+    margin:auto;
+}
+.imgcon
+{
+  text-align: center;
+  background: gainsboro;
+  padding-bottom: 0px;
+  height: 400px;
+}
+.gear,
+.chat {
+    color: #bdc3c7;
+    font-size: 1.6rem;
+    position: absolute;
+}
+.gear {
+    left: 5px;
+    top: 10px;
+}
+.chat {
+    left: 93%;
+    top: 10px;
+    /* transform: translateX(-100%); */
+}
+.re-ico,
+.cl-ico,
+.heart-ico,
+.star-ico {
+    font-size: 1.5rem;
+    padding: 15px;
+    font-weight: 700 !important;
+    border-radius: 50%;
+    /* border:1px solid red; */
+    margin: 5px;
+    /* width: 30px;
+height: 30px; */
+    /*   width:40px !important; */
+}
+.top-ico {
+    position: relative;
+    height: 50px;
+}
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+.desc-name,.desc-job,.desc-bio
+{
+  background: #fff;
+}
+.desc-name h3 {
+    margin: 5px;
+    font-weight: 500;
+    color: #223;
+
+}
+.desc-job p {
+    margin: 4px 4px 4px 5px;
+    color: #7f8c8d;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.desc-bio p {
+    color: #223;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.re-ico {
+    color: #f1c40f;
+}
+.cl-ico {
+    color: #c0392b;
+}
+.heart-ico {
+    color: #1abc9c;
+}
+.star-ico {
+    color: #3498db;
+}
+@keyframes slideRight {
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform:translateX(100%);
+  }
+}
+/* .main
+{
+height:400px;
+overflow:auto;
+} */
+.bottom-ico {
+    margin-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+.cont-card
+{
+  position: relative;
+}
+.one-card
+{
+  position: static;
+  top:0%;
+  background: #fff;
+}
